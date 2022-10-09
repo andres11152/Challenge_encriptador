@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0">
+            
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+            <title>Encriptador de Texto</title>
+        </head>
+
+        <body>
+        
+        <header>
+
+            <img class = logo src="imagenes/Vector.png"widht= 8px heigth= 7px alt= LogoDeALura>
+            <h1 class="Titulo">Encriptador de Texto Alura!</h1>
+            
+        </header>
+           
+        <main>
+
+            <section class="seccionIzquierda">
+
+                <textarea class ="TextoAEncriptar"cols="40" rows="8"placeholder="Por favor ingrese el texto a encriptar"></textarea>>
+
+                <div class = "botones">
+                    <p class="advertencia"> Texto a ingresar sin minúsculas y sin acento ortográfico</p>
+                    <button class="BotonEncriptador" onclick="BotonEncriptar()">Encriptar</button> 
+                    <button class="BotonDesencriptador" onclick="BotonDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+        
+            <section class ="seccionDerecha">
+                
+                <textarea class= "TextoEncriptado"cols="40" rows="8" placeholder="Por favor ingrese el texto a deseencriptar"></textarea>
+                <button class="BotonCopiar" onclick="Copiar()">Copiar Texto</button>
+
+            </section>
+        
+        </main>
+
+        <footer>
+            <p class="copyRight">©Copyright by Andres Betancourt - alura </p>
+        </footer>
+
+<script src="script.js"></script>
+
+</html> 
